@@ -24,8 +24,6 @@ class Solution {
             return slen;
         }
         if(dp[slen][tlen]!= -1){
-            geek gesek
-
             return dp[slen][tlen];
         }
         if(s[slen-1] == t[tlen-1]){
